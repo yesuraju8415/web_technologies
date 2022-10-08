@@ -1,0 +1,66 @@
+
+body{
+    margin : 0px;
+    display : flex;
+    justify-content : center;
+    height : 100vh;
+    align-items : center;
+    text-align : center;
+    font-family : "mv boli";
+    background-color : yellow;
+}
+
+.form{
+    background-color : white;
+    border-radius : 12px;
+    box-shadow : 0px 5px 10px rgba(0,0,0,.8);
+    padding : 20px;
+    margin : 10px;
+}
+
+.input{
+    display : block;
+    width : 100%;
+    box-sizing : border-box;
+    font-size : 25px;
+    text-align : center;
+    border:5px solid black;
+    box-shadow : 2px 4px 8px;
+}
+
+.input::placeholder{
+    color:grey;
+    opacity : .6;
+    font-family:cursive;
+}
+
+#btn{
+    border : 5px inset;
+    background-color:black;
+    width : 90px;
+    height : 35px;
+    font-size : 15px;
+    color:aqua;
+    border-color:aqua;
+    text-transform : uppercase;
+    display : block;
+    width : 100%;
+    margin :20px 0;
+    font-weight : bold;
+    border-radius : 10px;
+    box-shadow : 2px 4px 8px rgba(0,0,0,.9); 
+    cursor : pointer; 
+}
+
+#btn:hover{
+    border : 5px inset black;
+    background-color:aqua;
+    color:black;
+    font-weight : bold;
+    filter : brightness(.9);
+}
+
+.score{
+    text-align : right;
+    color : green;
+}
